@@ -1,17 +1,3 @@
-# import smtplib
-#
-# my_email = "anderclace@gmail.com"
-# password = "sksksksksksk"
-# with smtplib.SMTP("smtp.gmail.com") as connection:
-#     connection.starttls()
-#     connection.login(user=my_email, password=password)
-#     connection.sendmail(
-#         from_addr=my_email,
-#         to_addrs="nuelnoja@gmail.com",
-#         msg="Subject: Facts\n\nDid you know there's a tunnel under ocean boulevard?"
-#     )
-#
-
 import datetime as dt
 import random
 import smtplib
