@@ -17,7 +17,7 @@ import random
 import smtplib
 
 
-my_email = "anderclace@gmail.com"
+my_email = "myemail@gmail.com"
 password = "sksksksksksk"
 
 now = dt.datetime.now()
@@ -32,7 +32,7 @@ if current_day == 2:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
-                            to_addrs="nuelnoja@gmail.com",
+                            to_addrs="youremail@gmail.com",
                             msg=f"Subject: Quote of the Week\n\n{quote_of_the_week}")
 
 
