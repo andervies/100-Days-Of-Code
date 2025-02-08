@@ -3,8 +3,8 @@ from smtplib import SMTP
 from bs4 import BeautifulSoup
 import lxml
 
-MY_EMAIL = "anderclace@gmail.com"
-MY_PASSWORD = "eQu!vocal"
+MY_EMAIL = EMAIL
+MY_PASSWORD = PASSWORD
 URL = "https://www.amazon.com/Andoer-Photography-Professional-2800-5700K-Temperature/dp/B08T61SMMH/ref=sr_1_6" \
       "?keywords=filmmaking%2Blighting%2Bequipment&qid=1691585376&sprefix=filmmaking%2Blight%2Caps%2C558&sr=8-6&th=1 "
 
