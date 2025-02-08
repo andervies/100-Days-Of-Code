@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 url = "https://www.alphavantage.co/query"
-api_key = "JE5515KZUVNDKYWE"
+api_key = API_KEY
 
 day_before = datetime.today().date() - timedelta(2)
 yesterday = datetime.today().date() - timedelta(1)
