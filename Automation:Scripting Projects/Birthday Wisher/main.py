@@ -4,8 +4,8 @@ import pandas
 import datetime
 import random
 
-MY_EMAIL = "anderclace@gmail.com"
-MY_PASSWORD = "sksksksksksk"
+MY_EMAIL = EMAIL
+MY_PASSWORD = PASSWORD
 
 # 1. Update the birthdays.csv
 with open("birthdays.csv") as datafile:
