@@ -1,9 +1,9 @@
 import requests
 from datetime import datetime
 
-USER_NAME = "anderslair"
-TOKEN = "sksksksksksk"
-GRAPH_ID = "lair01"
+USER_NAME = USERNAME
+TOKEN = TOKEN
+GRAPH_ID = GRAPH_ID
 
 today = datetime(year=datetime.today().year, month=datetime.today().month, day=datetime.today().day)
 
