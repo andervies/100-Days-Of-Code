@@ -1,18 +1,18 @@
 import requests
 from datetime import datetime
 
-api_key = "5c6fd7ac420f478b54fe4d96b074dc9f"
-api_id = "9b49ea74"
-exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
+api_key = API_KEY
+api_id = API_ID
+exercise_endpoint = EXERCISE_ENPOINT
 
-sheety_endpoint = "https://api.sheety.co/d893e8ac8df892237d1977b25cd92fbf/workoutTracking/workouts"
+sheety_endpoint = MY_SHEETY_ENDPOINT
 
 headers = {
     "x-app-id": api_id,
     "x-app-key": api_key,
 }
 
-sheety_header = {"Authorization": "Bearer sksksksksksksksksksksksksksksksksk123///"}
+sheety_header = {"Authorization": "Bearer BEARER_TOKEN_GOES_HERE"}
 
 exercise_params = {
  "query": input("What exercise did you do today?: "),
