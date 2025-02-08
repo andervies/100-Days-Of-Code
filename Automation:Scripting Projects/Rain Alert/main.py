@@ -1,12 +1,12 @@
 import requests
 
 
-api_key = "9854eb105524c9fb307ed68f86845852"
-api_key2 = "0725c2aedbcb486145f6b4dfc7c5236d"
+api_key = API_KEY
+api_key2 = API_KEY_2
 
 parameters = {
-    "lat": 9.076479,
-    "lon": 7.398574,
+    "lat": LAT,
+    "lon": LON,
     "appid": api_key2
 }
 
