@@ -4,7 +4,7 @@ import smtplib
 
 
 my_email = "myemail@gmail.com"
-password = "sksksksksksk"
+password = PASSWORD
 
 now = dt.datetime.now()
 current_day = now.weekday()
