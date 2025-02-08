@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 SCOPE = "playlist-modify-private"
-CLIENT_ID = "52b651d4fd7c4b11bac6390bae69f860"
-CLIENT_SECRET = "f0bc04fb7434493fb65aded258fb1317"
+CLIENT_ID = CLIENT_ID
+CLIENT_SECRET = CLIENT_SECRET
 date = input("what year would you like to travel back to?: ")
 playlist_name = f"Billboard Playlist for {date}"
 
