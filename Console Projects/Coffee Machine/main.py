@@ -29,6 +29,8 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
+
+
 def sufficiency(flavour):
     if flavour == "espresso":
         if resources["water"] >= 50 and resources["coffee"] >= 18:
@@ -42,6 +44,8 @@ def sufficiency(flavour):
     else:
         print("insufficient resources")
         return False
+
+
 def transaction_success (coins):
     if coffee_type == "espresso":
         if coins >= 1.50:
@@ -61,6 +65,8 @@ def transaction_success (coins):
         else:
             print("transaction unsuccessful")
             return False
+
+
 def deduct(flavour):
     if flavour == "espresso":
         resources["water"] -= 50
